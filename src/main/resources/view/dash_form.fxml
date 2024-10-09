@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="330.0" prefWidth="580.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashFormController">
+   <children>
+      <ImageView fitHeight="330.0" fitWidth="626.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/pngtree-wireless-payment-system-3d-render-of-credit-card-pos-terminal-and-image_3905119.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="163.0" layoutY="29.0" onAction="#btnViewCustomerFormOnAction" prefHeight="57.0" prefWidth="412.0" style="-fx-background-color: #e55039;" text="View Customer Form" textFill="#fcf8f8">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></JFXButton>
+      <JFXButton layoutX="163.0" layoutY="102.0" onAction="#btnViewItemFormOnAction" prefHeight="57.0" prefWidth="412.0" style="-fx-background-color: #e55039;" text="View Item Form" textFill="#fff7f7">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></JFXButton>
+      <JFXButton layoutX="163.0" layoutY="165.0" onAction="#btnPlaceOrderFormOnAction" prefHeight="57.0" prefWidth="412.0" style="-fx-background-color: #e55039;" text="Place Order Form" textFill="#fff7f7">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
