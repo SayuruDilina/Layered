@@ -34,6 +34,7 @@ public class AddCustomerFormController implements Initializable {
         ObservableList<String> titles = FXCollections.observableArrayList();
         titles.add("MR.");
         titles.add("Miss");
+        titles.add("Mrs");
 
 
 
